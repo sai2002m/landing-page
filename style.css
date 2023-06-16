@@ -1,0 +1,221 @@
+    html,body{
+            font-family:poppins;
+            background-color: antiquewhite;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .bg{
+          background-image: url("r1m.jpg");
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navbar{
+            background-image: url("navbg.jpg");
+            
+        }
+        .wrap{
+            position: absolute;
+            top: 12%;
+            left: 75%;
+            transform: translate(-50%,-50%);
+            width: 55%;
+            
+        }
+        .box{
+            position: relative;
+            width: 120px;
+            text-align: center;
+            float: left;
+            margin: 0 10px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        a:hover{
+            color: dimgray;
+            }
+        .cover{
+            width: 400px;
+            height: 400px;
+            margin-top: 40px;
+            display: flex;
+        }
+        
+        .col3{
+            align-content: center;
+            margin: 10px;
+            width: 800px;
+            height: 400px;
+            box-shadow: -1px 0 10px #0000;
+        }
+        
+        img{
+            height: 200px;
+            width: 200px;
+            
+        }
+        .pro{
+            text-align: center;
+            color: gray;
+        }
+    .col{
+    float: left;
+    width: 400px;;
+        padding-left: 40px;
+    padding-right: 55px;
+      
+}
+        .side{
+            text-align: center;
+            color: gray;
+            
+        }
+        
+    .row1{
+            width: 80%;
+            max-width: 1170px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 50px 30px;
+            
+            }
+        .row1.left{
+            overflow: hidden;
+        }
+        row1.left img{
+            width: 400px;
+            height: 400px;
+            object-fit: cover;
+            
+        }
+        .row1.right{
+            display: flex;
+            align-items: center;    
+        }
+        .row1.right.h2{
+           color: black;
+        }
+        .row1.right.context{
+            padding-left: 20px;
+        }
+        .row.right.context.p{
+            font-size: 16px;
+            line-height: 26px;
+            padding-bottom:15px; 
+        }
+    .btn{
+            display: inline-block;
+          background: #ff523b;
+           color: #fff;
+          padding: 8px 30px;
+          margin: 30px 0 ;
+          border-radius: 30px;
+          align-content: center;
+          
+        
+}
+.btn:hover{
+    background: gray;
+}
+ 
+.tittle{
+    text-align: center;
+   display: inline-block;
+          background: blue;
+           color: #fff;
+          padding: 8px 30px;
+          margin: 30px 0 ;
+          border-radius: 30px;
+    
+}
+        .small-container1{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+} 
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+        
+        .xy{
+            background:gray; 
+    color: white;
+    font-weight: normal;
+            text-transform:none;
+}
+.footer{
+    margin-top: 100px;
+    width: 1100px;;
+    padding: 100px 15%;
+    background: gray;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col8{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col7 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+    
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social{
+    margin-top: 30px;
+}
+.social i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
